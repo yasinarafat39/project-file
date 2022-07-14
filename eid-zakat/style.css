@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* header start */
+
+header{
+    height: 500px;
+    background: linear-gradient(to left,rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url(images/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.header-div{
+     color: white;
+}
+.header-div h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    
+}
+.half-widht{
+    display: flex;
+    width: 50%;
+}
+
+a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ef233c;
+    text-decoration: none;
+    color: white;
+}
+
+/* header end */
+
+.article-01{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+    
+}
+.half-width img{
+    width: 75%;
+    border-radius: 20px;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+}
+.article-02{
+    display: flex;
+    margin-bottom: 100px;
+}
+.article-03{
+    margin-bottom: 100px;
+}
+.article-03 h1{
+    text-align: center;
+}
+.article-03 p{
+    text-align: center;
+     
+}
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.direct-help{
+    /* margin-bottom: 100px; */
+    margin: 0% 15% 0% 15%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: space-around;
+    border: 2px solid black; */
+}
+.direct-article{
+    background-color:#fef4f5;
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin: 2%;
+    border-radius: 5px;
+}
+.dh-live{
+    margin: 0 20px;
+}
+.dh-live h3{
+    text-align: left;
+}
+.dh-live p{
+    text-align: left;
+}
+.sunset{
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sunset-images{
+    width: 80%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sunset-with-man{
+    width: 35%;
+    
+}
+.sunset-with-man img{
+    width: 95%;
+    border-radius: 10px;
+    
+}
+ 
